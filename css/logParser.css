@@ -1,0 +1,76 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #565656;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  border-width: 0;
+  font-family: monospace;
+  font-size: 11px;
+  height: 250px;
+  min-width: 300px;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  resize: none;
+  white-space: pre;
+  width: 100%;
+}
+
+h1 {
+  background-color: #ff6964;
+  color: #fff;
+  font-weight: 100;
+  margin: 0;
+  padding: 12px 0;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.input-container, .output-container {
+  margin: 10px 15%;
+  text-align: right;
+}
+
+.input-container .error-messages {
+  background-color: rgba(226, 145, 120, 0.42);
+  border-radius: 5px;
+  color: #fff;
+  display: none;
+  float: left;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  text-align: left;
+  width: 70%;
+}
+
+button {
+  background-color: #ed6460;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 10px 0 0 15px;
+  padding: 10px 20px;
+}
