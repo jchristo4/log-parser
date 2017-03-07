@@ -31,7 +31,7 @@ textarea {
 h1 {
   background-color: #ff6964;
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
   margin: 0 0 10px 0;
   padding: 12px 0;
   text-align: center;
@@ -49,6 +49,10 @@ h2 {
 .input-container, .output-container {
   margin: 10px 15%;
   text-align: right;
+}
+
+.input-container {
+  margin-top:30px;
 }
 
 .input-container .error-messages {
